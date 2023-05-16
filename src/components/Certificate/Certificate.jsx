@@ -23,7 +23,7 @@ const Certificate = () => {
         <div>
             <div className="p-14">
                 <h1 className="text-white font-bold text-2xl p-4 mb-6">Achivements</h1>
-                <div className='grid gird-cols-1 md:grid-cols-2 gap-10 mb-3'>
+                <div className='grid gird-cols-1 md:grid-cols-2 gap-10 mb-3 p-4'>
                     {
                         Certificates.map((certificate, index) => <div key={index} className=''>
                             <img src={certificate.img} alt="this is skills image" className='mb-[.6rem]' />

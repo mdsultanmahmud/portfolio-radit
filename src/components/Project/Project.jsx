@@ -27,21 +27,20 @@ const Project = () => {
     ]
 
     return (
-        <div className="p-14">
-            <h1 className="text-white font-bold text-2xl p-4 mb-6">Projects</h1>
+        <div className="p-14 my-20">
+            <h1 className="text-white font-bold text-2xl p-1  mb-6">Projects</h1>
             <div className='grid gird-cols-1 md:grid-cols-2 gap-10 mb-3'>
                 {
                     projects.map((project, index) => <div key={index} className=''>
                         <a href={project?.link} target='_blank' rel='noreferrer'>
                             <img src={project.img} alt="this is skills image" className='mb-[1rem]' />
                         </a>
-                        <h2 className='mb-[1rem] font-semibold text-lg'>{project.name}</h2>
-                        {/* <button className='text-[#FFD701]'>Details</button> */}
+                        <h2 className='mb-[1rem] font-semibold text-lg ml-[3px]'>{project.name}</h2>
                     </div>)
                 }
             </div>
             <div>
-                <h1 className="text-white font-bold text-2xl p-4">Fun facts</h1>
+                <h1 className="text-white font-bold text-2xl px-4 mt-8">Fun facts</h1>
                 <div className='grid gap-10 grid-cols-2 md:grid-cols-3 p-4'>
                     <img src={funOne} alt="this is skills image" className='w-3/4' />
                     <img src={funTwo} alt="this is skills image" className='w-3/4' />
