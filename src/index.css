@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+  background-color: #19191B;
+  color: white;
+}
+
+.secondary_color{
+  color: #FFD701;
+}
