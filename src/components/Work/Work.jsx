@@ -32,7 +32,7 @@ const Work = () => {
         }
     ]
     return (
-        <div className='p-14'>
+        <div className='px-14 py-2'>
             <h1 className='text-white font-bold text-2xl p-4'>Work Skill</h1>
             <div className='grid gird-cols-1 md:grid-cols-2 gap-10 '>
                 {

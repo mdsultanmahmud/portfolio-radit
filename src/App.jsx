@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner"
+import Certificate from "./components/Certificate/Certificate"
 import Project from "./components/Project/Project"
 import Work from "./components/Work/Work"
 
@@ -12,6 +13,7 @@ function App() {
           <Banner/>
           <Work/>
           <Project/>
+          <Certificate/>
       </div>
     </div>
   )

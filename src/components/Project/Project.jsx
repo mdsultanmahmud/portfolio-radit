@@ -32,7 +32,7 @@ const Project = () => {
             <div className='grid gird-cols-1 md:grid-cols-2 gap-10 mb-3'>
                 {
                     projects.map((project, index) => <div key={index} className=''>
-                        <a href={project?.link} target='_blank'>
+                        <a href={project?.link} target='_blank' rel='noreferrer'>
                             <img src={project.img} alt="this is skills image" className='mb-[1rem]' />
                         </a>
                         <h2 className='mb-[1rem] font-semibold text-lg'>{project.name}</h2>
